@@ -2,7 +2,6 @@
 
 基于 Hadoop + Hive 的离线数据仓库项目，实现电商业务数据的采集、清洗、转换和汇总分析。
 
-**GitHub**: https://github.com/NEAZ71eve/gmall-offline-dw
 
 ---
 
@@ -290,27 +289,6 @@ datax_user_info ──► datax_order_info ──► datax_order_detail
 
 ---
 
-## 学习价值
-
-通过本项目，您可以掌握：
-
-- ✅ Hadoop HDFS 分布式文件系统使用
-- ✅ DataX 多数据源同步
-- ✅ 数据仓库分层架构设计 (ODS → DIM → DWD → DWS → ADS)
-- ✅ 雪花模型维度建模
-- ✅ SCD缓慢变化维（SCD1/SCD2/SCD3）实现
-- ✅ 拉链表、快照表、累计快照表设计
-- ✅ 指标体系搭建（原子/衍生/复合指标）
-- ✅ ETL 流程开发与优化
-- ✅ Hive 性能优化（分区裁剪、索引、大表Join）
-- ✅ 数据生命周期管理与冷热数据分离
-- ✅ 数据脱敏与安全治理
-- ✅ SQL 优化技巧
-- ✅ DolphinScheduler 复杂工作流编排
-- ✅ Apache Superset 数据可视化与报表开发
-- ✅ 数据质量监控与告警机制
-
----
 
 ## 文档
 
